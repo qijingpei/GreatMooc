@@ -1,0 +1,107 @@
+/* CSS Document */
+body {
+	background: #ddd;
+	font-family: "Microsoft YaHei UI", "华文行楷", "华文隶书", "华文宋体";
+	color: #fdfdfd;
+	font-size: 14px;
+}
+input{background-color:#eee;}
+.addBody {
+	width: 500px;
+	height: 600px;
+	background: #333;
+	margin: 0px auto;
+	margin-top:40px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	padding: 10px 30px 0 30px;
+	background: -webkit-radial-gradient(center, ellipse cover, #6A6A6A 0%, #1A1A1B 100%);
+	background: -moz-radial-gradient(center, ellipse cover, #6A6A6A 0%, #1A1A1B 100%);
+	background: -o-radial-gradient(center, ellipse cover, #6A6A6A 0%, #1A1A1B 100%);
+}
+
+.msg {
+	height: 40px;
+	margin-left: 16px;
+}
+
+.inputDiv {
+	position: relative;
+}
+
+._name {
+	width: 308px;
+	height: 40px;
+	border: 1px solid #314D89;
+	border-radius: 4px 4px 0 0;
+}
+
+label {
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+	color: #fcfcfc;
+}
+
+.imgDiv {
+	position: relative;
+	width: 400px;
+	margin: 30px 0;
+}
+
+.imgBtn {
+	width: 144px;
+	height: 34px;
+	background: url(/mooc/adminjsps/images/上传文件.jpg) center no-repeat;
+	border: 0;
+}
+.imgBtn:hover{cursor:pointer;}
+.file {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	height: 34px;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	width: 126px
+}
+
+.txt {
+	height: 30px;
+	border: 1px solid #cdcdcd;
+	width: 144px;
+	float: right;
+}
+
+.desc {
+	margin: -8px 0 0 98px;
+	width: 300px;
+	height: 120px;
+	background-color:#eee;
+}
+
+.selectDiv {
+	width: 310px;
+	margin: 30px auto;
+}
+
+.select {
+	width: 150px;
+	height: 30px;
+	color: #003399;
+	background-color:#eee;
+}
+
+.button {
+	width: 200px;
+	height: 40px;
+	margin: 30px 0 0px 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #636363;
+}
+
+.button:hover {
+	background: -webkit-linear-gradient(top, #cfcfcf 0%, #f2f2f2 100%);
+	-webkit-animation: login 1500ms infinite alternate ease-in-out;
+}

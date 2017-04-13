@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color:#000;
+}
+
+#top {
+	width: 895px;
+	height: 45px;
+	margin: 20px auto;
+	margin-bottom:0px;
+	background-image: -webkit-linear-gradient(rgba(41, 41, 41, 0.75) 0%,
+		rgba(54, 54, 54, 0.72) 50%, rgba(24, 23, 23, 0.94) 51% );
+	border-radius: 5px;
+	box-shadow: 1px 1px 25px #fff;
+}
+
+#top ul>li {
+	width: 127px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	font-size: 14px;
+	border-right: 1px solid #000;
+	font-family: "微软雅黑";
+	position: relative;
+}
+
+#top ul li:last-child {
+	border-right: 0px;
+}
+
+#top ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#top ul li:hover {
+	background: rgba(10, 5, 5, 0.5);
+}
+
+#top ul li:first-child:hover {
+	border-radius: 5px 0px 0px 5px;
+}
+
+#top ul li:last-child:hover {
+	border-radius: 0px 5px 5px 0px;
+}
+
+#top ul li ul {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 45px;
+}
+
+#top ul li:hover ul {
+	display: block;
+	-webkit-animation: animated .5s ease;
+}
+
+@-webkit-keyframes animated { 
+	0%   {-webkit-transform: rotate(0deg);opacity: 0;}
+
+   100%  {-webkit-transform:rotate(-360deg);opacity:1;}
+}
+#top ul li ul li {
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	font-size: 13px;
+	border-right: 1px solid #000;
+	font-family: "微软雅黑";
+	position: relative;
+	background: rgba(10, 5, 5, 0.45);
+	border: 0px;
+	border-top: 1px solid #989898;
+	display: block;
+}
+
+#top ul li ul li:hover {
+	background: rgba(10, 5, 5, 0.7);
+}
+
+#Main {
+	width: 1300px;
+	height: 1500px;
+	border: 1px solid #000000;
+	box-shadow: 0px 0px 6px #ddd;
+	margin: 30px auto;
+	border-radius: 5px;
+}
+
+p.Copy {
+	height: 50px;
+	color: #ccc;
+	font-size: 14px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+p.Copy a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+p.Copy a:hover {
+	color: #fff;
+}

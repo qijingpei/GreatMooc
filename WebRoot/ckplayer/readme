@@ -1,0 +1,9 @@
+播放程序主文件夹
+本目录下包括的内容
+share 分享插件图片文件夹
+ckplayer.js js文件（包括配置参数以及调控html5代码相关js）
+ckplayer.swf Flash播放文件
+ckplayer.xml XML配置文件-提供另一种形式的配置
+language.xml 语言包文件
+share.xml 分享到站外的相关配置文件
+style.swf 风格文件，改成style.zip可看到播放器风格图片文件以及配置文件style.xml

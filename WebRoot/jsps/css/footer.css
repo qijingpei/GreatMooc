@@ -1,0 +1,86 @@
+#footer {
+  background: #000000;
+  font-size: 12px;
+  color: #787d82;
+  padding: 27px 0;
+  min-width: 620px;
+}
+
+
+#footer p {
+  line-height: 2;
+  padding-left:240px;
+}
+
+
+#footer .des {
+  width: 445px;
+}
+#footer .followus {
+  margin-right: 34px;
+  padding-left: 30px;
+}
+.followus a {
+  float: left;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  text-decoration:none;
+}
+#footer .followus a:hover {
+  opacity: 1;
+ }
+
+.followus .followus-weixin img{
+margin-left:800px;
+border:none;
+}
+.followus-weixin:hover .flw-weixin-box {
+  display: block;
+}
+
+.followus .followus-weibo img{
+margin-left:880px;
+border:none;
+}
+
+.followus .followus-qzone img{
+margin-left:960px;
+border:none;
+}
+
+
+.friend-links a:hover {
+ color: #000;
+}
+
+
+.footer_link ul {
+list-style-type:none;
+  overflow: hidden;
+  margin-top: -1px;
+}
+.footer_link ul a{
+text-decoration:none;
+display:block;
+font-family:"微软雅黑";
+
+}
+.footer_link a:link,
+.footer_link a:active {
+  color: #c8cdd2;
+}
+.footer_link a:hover {
+  color: #fff;
+}
+#footer .footer_link {
+  margin-bottom: 4px;
+  line-height: 1.8;
+}
+#footer .footer_link li {
+  margin-right: 30px;
+  text-align: center;
+  float: left;
+}

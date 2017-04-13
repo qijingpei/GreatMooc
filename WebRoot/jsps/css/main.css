@@ -1,0 +1,8 @@
+*{font-size:10pt; padding: 0px; margin: 0px;}
+body{text-align:center;background-color:#eee;}
+.table{height:100%;}
+.top {height:60px;}
+.mid{height: 100%;}
+.mid_left{width:310px;float:left;height:800px;margin-left:40px;}
+.mid_right{width:900px;float:left;margin-top:60px;margin-left:20px;overflow:hidden;}
+.footer{height:124px;}

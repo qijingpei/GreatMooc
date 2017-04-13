@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+ul,ol {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+body {
+	font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #eee;
+}
+
+/*课程时长和学习人数的部分*/
+#desc_main {
+	margin-top: 20px;
+}
+
+.c_desc {
+	width: 1200px;
+	height: 340px;
+	margin: 0 auto;
+}
+
+.c_img {
+	width: 600px;
+	height: 340px;
+	float: left;
+}
+
+.c_state {
+	width: 240px;
+	float: left;
+	background: #364247;
+	padding: 0 40px;
+	height: 340px;
+	overflow: hidden;
+}
+
+.c_state ul li {
+	height: 113px;
+	border-bottom: 1px solid #414f55;
+	overflow: hidden;
+	line-height: 113px;
+	color: #F4F4F4;
+}
+
+.c_state ul li span {
+	color: #909b9e;
+	font-size: 16px;
+	line-height: 24px;
+	margin-right: 15px;
+}
+
+.c_state ul li b {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.c_do {
+	width: 280px;
+	height: 340px;
+	float: right;
+	background-color: #4d5a61;
+}
+
+.concern {
+	display: block;
+	height: 100px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.concern span {
+	display: block;
+	color: #909b9e;
+	line-height: 1em;
+}
+
+.start {
+	height: 200px;
+	width: 100%;
+	background: #9D0000;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	line-height: 200px;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+}
+
+/*所属学校和教师部分*/
+.c_info {
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: "Microsoft Yahei";
+}
+
+.s_img {
+	width: 280px;
+	height: 150px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #ccc;
+}
+
+.s_img img {
+	display: block;
+	margin: 30px auto;
+}
+
+.c_intro {
+	width: 710px;
+	min-height: 150px;
+	background-color: #FFF;
+	float: right;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #ccc;
+}
+
+.c_intro h3 {
+	margin: 10px 0 0 10px;
+}
+
+.c_intro p {
+	margin: 4px 20px;
+	color: #60686b;
+}
+
+/*章节样式*/
+.c_related {
+	width: 1000px;
+	min-height: 600px;
+	margin: 0 auto;
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+
+.chapters {
+	width: 620px;
+	float: left;
+	padding: 20px 20px;
+	min-height: 600px;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.charter-name {
+	width: 560px;
+	height: 40px;
+	background: #e6e6e6;
+	font-family:"Microsoft YaHei UI", "华文行楷", Arial, sans-serif;
+	line-height: 40px;
+	font-size: 20px;
+	margin-top:20px;
+	padding-left: 50px;
+	color:#3f3f3f;
+	position: relative;
+}
+
+.charter-name  img {
+	position: absolute;
+	top: 9px;
+	left: 11px;
+}
+.chapter{
+	clear:both;
+	width: 580px;
+	margin-top:20px;
+}
+.chapter a {
+	text-decoration: none;
+	font-family: "Microsoft YaHei UI", "华文行楷", Arial, sans-serif;
+	font-size: 16px;
+	color:#009933;
+	padding-left: 10px;
+
+}
+.chapter ul {
+	float:left;
+	margin-bottom:20px;
+}
+.chapter ul li{
+	width:500px;
+	margin-top: 20px;
+	float:left;
+	}
+.chapter a:hover {
+	color: #0033CC;
+	text-decoration: underline;
+}
+.learn{
+	float:right;
+	font-weight:800;
+	margin-top: 20px;
+}
+
+
+.c_teacher {
+	width: 250px;
+	padding: 10px 25px;
+	float: left;
+	margin-left: 30px;
+	min-height: 360px;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.c_teacher h2 {
+	border-bottom: 1px solid #d0d6d9;
+	font-size: 15px;
+	margin-left: 10px;
+	height: 50px;
+	line-height: 50px;
+}
+.tea_img{
+	display:block;
+	margin:20px 10px;
+}
+.tea_img img {
+	float: left;
+	border-radius: 80px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 50px;
+	-ms-border-radius: 80px;
+	-o-border-radius: 80px;
+}
+
+.tea_img h3 {
+	margin-top: 30px;
+	font-size: 16px;
+	color: #333;
+	width: 120px;
+	float: right;
+}
+
+.c_teacher p {
+	color:#333;
+	clear: both;
+	padding: 20px 10px;
+}

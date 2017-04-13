@@ -1,0 +1,26 @@
+body{background:#E2E2E2;font-family:"微软雅黑";color:#fdfdfd;}
+
+  .whole{width:500px;height:500px;background:#000000;margin:0px auto;border-radius:5px;box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+background:-webkit-radial-gradient(center,ellipse cover,#64d5ff 0%,#000000 100%);
+background:radial-gradient(center,ellipse cover,#64d5ff 0%,#cc0033 100%);
+padding:100px 30px 0 30px;}
+
+
+.whole:before{
+content:"Great Mooc  会员注册";color:#fcfefe;font-size:18px;font-weight:bold;
+background:url(../images/arr.png) no-repeat;padding-left:40px;position:absolute;top:20px;left:410px;
+
+}
+ 
+  /*form{border:1px solid #000000;margin-right:400px;margin-left:400px;margin-top:200px;}*/
+  
+  input{width:260px;height:40px;border:1px solid #314D89;cursor:pointer;border-radius:4px 4px 0 0;}
+  label{display:inline-block;width:90px;text-align:center;color:#fcfcfc;}
+  .gender{width:20px;height:20px;}
+  label .gender{margin-left:-10px;}
+  .check input{width:110px;}
+  .check a{color:#fff;font-size:12px;display:block;margin-bottom:10px;margin-left:250px;}
+  #btn-element{margin-top:100px;margin-left:80px;}
+  #submitButton{width:290px;font-size:18px;font-weight:bold;color:#636363;}
+ #submitButton:hover{background:-webkit-linear-gradient(top,#cfcfcf 0%,#f2f2f2 100%);
+-webkit-animation:login 1500ms infinite alternate ease-in-out;

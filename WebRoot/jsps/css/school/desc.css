@@ -1,0 +1,168 @@
+*{  margin:0;
+	padding:0;
+	border:0;
+	}
+a{ text-decoration:none;}
+body{
+	background-color:#EEE;
+	font-family:"Microsoft YaHei UI", "华文行楷", "华文隶书", "华文宋体";
+	font-size:14px;
+}
+
+#desc_main .s_bimg{
+  height: 280px;
+  background-color:#f3e9d5
+  overflow: hidden;
+  text-align: center;
+}
+
+#desc_main .s_bimg img {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  }
+  
+  .s_intro{
+  width:1000px;
+  height:140px;
+  margin:0 auto;
+position:relative;
+  }
+.s_intro .s_simg{
+	padding:40px 30px;
+	float:left;
+	background-color:#FFFFFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #ccc;
+	position:absolute;
+	top:-40px;
+}
+.s_intro .s_simg img{
+	display:block;
+	margin:0px auto;
+}
+.s_intro .intro{
+	width:730px;
+	float:right;
+	padding:20px 20px;
+}
+
+.s_intro .intro h2{
+	height:30px;
+	width:400px;
+	font-size:24px;
+	margin-bottom:10px;
+}
+.desc_contain{
+	width:1000px;
+	margin:0 auto;
+}
+.kecheng{
+	float:left;
+	width:1000px;
+	margin:30px auto;
+	margin-bottom:10px;
+	height:40px;
+	border-bottom: 1px solid #ddd;
+}
+.courses{
+	width: 1000px;
+	margin:0 auto;
+	min-height:300px;
+}
+.course {
+	width: 242px;
+	height: 220px;
+	position: relative;
+	padding: 20px 20px 20px 20px;
+	float: left;
+	background-color:#F2F2F2;
+	border-radius: 1px;
+	box-shadow: 1px 1px 15px #ccc;
+	margin:10px 30px 10px 20px;
+}
+.course:hover{
+	background-color:#fff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #ccc;
+	
+}
+.course a img {
+	position: relative;
+	z-index: 33;
+	border: none;
+}
+
+.cname{
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-family: "Microsoft YaHei", "serif";
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cname a{	
+	font-size: 16px;
+	color:#6600CC;
+	}
+.cname a:hover{
+	color:#FF0000;
+}
+.related {
+	height: 18px;
+	line-height: 18px;
+	color: #14191e;
+	text-align: center;
+	font-family: "Microsoft YaHei", "serif";
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.teachers{
+	clear:both;
+	min-height:300px;
+}
+
+.teacher{
+	float:left;
+	width:280px;
+	height:150px;
+	background-color:#F1F1F1;
+	border-radius: 1px;
+	box-shadow: 1px 1px 15px #ccc;
+	margin:10px 30px 10px 20px;
+}
+.teacher:hover{
+	background-color:#fff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #ccc;
+	
+}
+.teacher .t_simg{
+	height: 100px;
+  width: 100px;
+  float:left;
+  padding: 2px;
+  margin:20px 0 0 10px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 55px;
+  box-shadow:1px #eee;
+}
+.teacher .t_simg img{
+	height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  }
+.teacher .t_intro{
+	float:left;
+	width:150px;
+	margin:30px 5px;
+}
+.t_intro h4{
+	margin-bottom:10px;
+}

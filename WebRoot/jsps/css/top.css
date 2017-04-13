@@ -1,0 +1,71 @@
+*{margin:0px;padding:0px;border:0;}
+.top{
+height:60px;
+background:#000000;
+margin:0px auto;font-family:"Microsoft YaHei UI", "华文行楷", "华文隶书", "华文宋体";
+}
+
+.top ul li{
+padding:0 20px 0 20px;
+list-style:none;
+float:left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+.top ul .logo{
+width:190px;
+font-size:14px;
+margin:10px 0 0px 40px;
+}
+.top ul .daohang, .search{
+float:left;
+height:60px;
+line-height:60px;
+margin-left:30px;
+}
+.top ul .daohang:hover{
+transform:rotateY(360deg);transition:0.5s;
+background:#898989;
+}
+.top ul li a{
+text-decoration:none;
+color:#FFFFFF;font-size:14px;
+font-weight:bold;
+}
+
+.user{
+	height:60px;
+	line-height:60px;
+	margin-left:10px;
+}
+.user:hover{
+	background:#F83403;
+}
+.userImg{
+	width:50px;
+	height:50px;
+	float:left;
+	border-radius:25px;
+	margin-top:5px;
+}
+.uname{
+	display:block;
+
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+}
+.text{
+	width:180px;
+	height:30px;
+	background:#F9f1f1;
+}
+.button{
+	width:40px;
+	height:30px;
+	background: -webkit-radial-gradient(center, ellipse cover, #ccc 0%, #2A682A 100%);
+	color:#FFF;
+	font-weight:800;
+	border-radius:1px;
+}

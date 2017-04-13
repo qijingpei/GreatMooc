@@ -1,0 +1,19 @@
+modifed list:
+com.greatmooc.dao
+com.greatmooc.daoimpl
+com.greatmooc.dbmanger
+com.greatmooc.domain
+com.greatmooc.servlet
+com.greatmooc.util
+com.greatmooc.factory
+com.greatmooc.proxy
+com.greatmooc.listener
+
+add resourses list:
+videoplayer
+ckplayer
+css
+js
+errot.jsp
+web.xml
+videos

@@ -1,0 +1,134 @@
+body {
+	background: #E2E2E2;
+	font-family: "微软雅黑";
+}
+
+.login {
+	width: 360px;
+	height: 500px;
+	background: #000000;
+	margin: 0px auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	background: -webkit-radial-gradient(center, ellipse cover, #64d5ff 0%, #000000 100%);
+	background: radial-gradient(center, ellipse cover, #64d5ff 0%, #cc0033 100%);
+	position: relative;
+	padding:80px 30px 0 90px;
+}
+
+.login:before {
+	content: "Great Mooc  会员登录";
+	color: #fcfefe;
+	font-size: 18px;
+	font-weight: bold;
+	background: url(/mooc/jsps/images/arr.png) no-repeat;
+	padding-left: 30px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.login-form input[type="name"] {
+	width: 300px;
+	border: 1px solid #314D89;
+	padding: 15px 20px;
+	cursor: pointer;
+	border-radius: 4px 4px 0 0;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+.login-form input[type="email"],.login-form input[type="password"] {
+	width: 260px;
+	border: 1px solid #314D89;
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+.login-form input[type="email"] {
+	border-radius: 4px 4px 0 0;
+}
+
+.login-form input[type="password"] {
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+.login-form input[type="check"] {
+	width: 100px;
+	border: 1px solid #314D89;
+	padding: 15px 20px;
+	cursor: pointer;
+	float:left;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+.login-form input[type="submit"] {
+	width: 300px;
+	padding: 8px 0;
+	border-radius: 3px;
+	border: 0;
+	text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+	font-size: 18px;
+	color: #636363;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4) inset;
+	background: -webkit-linear-gradient(top, #f2f2f2 0%, #cfcfcf 100%);
+	margin-top: 0px;
+}
+
+.login-form input[type="submit"]:hover {
+	background: -webkit-linear-gradient(top, #cfcfcf 0%, #f2f2f2 100%);
+	-webkit-animation: login 1500ms infinite alternate ease-in-out;
+}
+
+@
+-webkit-keyframes login { 0%{
+	box-shadow: 0 1px 2px rgba(255, 255, 255, 0.8)
+}
+
+100%{
+box-shadow:0 1px 30px rgba(0,0,0,1)
+}
+}
+@keyframes login { 0%{
+	box-shadow: 0 1px 2px rgba(255, 255, 255, 0.8)
+}
+
+100%{
+box-shadow:0 1px 30px rgba (0,0,0,1)}
+}
+.login-form input[type="submit"]:active {
+	background: #ddd;
+	padding-top: 9px;
+	padding-bottom: 7px;
+}
+
+.login a {
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 180px;
+}
+
+.change {
+float:right;margin-right:45px;width:100px;
+}
+.inputDiv{
+	
+	width:320px;
+	height:80px;
+}
+#vCode{
+	margin:4px 0 0 80px;
+}
+.errorDiv {
+	height: 30px;
+}
+
+.error {
+	font-family: "微软雅黑";
+	color: #fff;
+}
